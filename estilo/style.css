@@ -73,10 +73,7 @@ section#img02 {
     background-image: url(../imagens/background002.jpg);
 }
 @media(max-width:768px) {
-    #img01{
-        background-attachment: scroll;
-    }
-    #img02{
+    .imagem {
         background-attachment: scroll;
     }
 }
