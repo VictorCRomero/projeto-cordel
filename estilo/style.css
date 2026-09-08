@@ -56,7 +56,6 @@ section.imagem {
     color: white;
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.471);
-    background-position: center center;
     background-attachment: fixed;
 }
 /*inset a sombra fica para dentro*/
@@ -68,6 +67,7 @@ section.imagem > p {
 }
 section#img01 {
     background-image: url(../imagens/background001.jpg);
+    background-position: center center;
 }
 section#img02 {
     background-image: url(../imagens/background002.jpg);
@@ -78,14 +78,5 @@ footer {
     text-align: center;
     padding: 10px;
 }
-    /*
-    text-transform: uppercase; letras maiúsculas
-    text-transform: capitalize; primeira letra de cada palavra maiúscula
-    text-transform:lowercase; letras minúsculas
-    text-transform:initial; rompe a caracteristica do que estiver vinculado e tornasse o de padrão
-    text-transform:inherit; herda a carcteristica do pai
-    text-transform:unset; Se houver um estilo no elemento pai: O unset vai herdar esse estilo (igual ao inherit).Se NÃO houver estilo no elemento pai: O unset vai resetar para o padrão do navegador (igual ao initial, que resulta em none).
 
-    font-variant: small-caps; As letras que já eram maiúsculas no HTML continuam grandes. As letras que eram minúsculas viram maiúsculas "pequenas", combinando com a altura da linha da fonte.
-    */
     
