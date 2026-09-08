@@ -35,7 +35,7 @@ header a, footer a {
     text-decoration: none;
     font-weight: bolder;
 }
-header a:hover, header a:hover {
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 section {
