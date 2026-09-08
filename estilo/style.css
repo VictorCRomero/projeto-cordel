@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte01: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte02: "Passion One", sans-serif;
+    --fonte03: "Sriracha", cursive;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+html, body  {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte01);
+}
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte02);
+    font-size: 10vw;
+}
+header > p {
+    padding-bottom: 50px;
+}
+header a, footer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover, header a:hover {
+    text-decoration: underline;
+}
+section {
+    padding: 10vh 0vh 10vh 30px;
+    line-height: 2em;
+    font-family: var(--fonte03);
+    font-size: 3.5vw;
+}
+section > p {
+    padding-bottom: 2em;
+}
+section.normal {
+    background-color: white;
+    color: black;
+}
+section.imagem {
+    background-color: rgb(51, 51, 51);
+    color: white;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.471);
+    background-attachment: fixed;
+}
+/*inset a sombra fica para dentro*/
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
+section#img01 {
+    background-image: url(../imagens/background001.jpg);
+    background-position: center center;
+}
+section#img02 {
+    background-image: url(../imagens/background002.jpg);
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+    /*
+    text-transform: uppercase; letras maiúsculas
+    text-transform: capitalize; primeira letra de cada palavra maiúscula
+    text-transform:lowercase; letras minúsculas
+    text-transform:initial; rompe a caracteristica do que estiver vinculado e tornasse o de padrão
+    text-transform:inherit; herda a carcteristica do pai
+    text-transform:unset; Se houver um estilo no elemento pai: O unset vai herdar esse estilo (igual ao inherit).Se NÃO houver estilo no elemento pai: O unset vai resetar para o padrão do navegador (igual ao initial, que resulta em none).
+
+    font-variant: small-caps; As letras que já eram maiúsculas no HTML continuam grandes. As letras que eram minúsculas viram maiúsculas "pequenas", combinando com a altura da linha da fonte.
+    */
+    
