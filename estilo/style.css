@@ -57,6 +57,7 @@ section.imagem {
     background-size: cover;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.471);
     background-position: center center;
+    background-attachment: fixed;
 }
 /*inset a sombra fica para dentro*/
 section.imagem > p {
